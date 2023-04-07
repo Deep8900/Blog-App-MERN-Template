@@ -1,6 +1,6 @@
 import React from "react"
 import "./create.css"
-import { IoIosAddCircleOutline } from "react-icons/io"
+// import { IoIosAddCircleOutline } from "react-icons/io"
 
 export const Create = () => {
   return (
@@ -8,11 +8,11 @@ export const Create = () => {
       <section className='newPost'>
         <div className='container boxItems'>
           <div className='img '>
-            <img src='https://images.pexels.com/photos/6424244/pexels-photo-6424244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='image' class='image-preview' />
+            <img src='https://images.pexels.com/photos/6424244/pexels-photo-6424244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='preview' class='image-preview' />
           </div>
           <form>
             <div className='inputfile flexCenter'>
-              <input type='file' accept='image/*' alt='img' />
+              <input type='file' accept='image/*' alt='' />
             </div>
             <input type='text' placeholder='Title' />
 

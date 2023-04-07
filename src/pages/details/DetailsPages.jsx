@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./details.css"
 import "../../components/header/header.css"
-import img from "../../assets/images/b5.jpg"
+// import img from "../../assets/images/b5.jpg"
 import { BsPencilSquare } from "react-icons/bs"
 import { AiOutlineDelete } from "react-icons/ai"
 import { useParams } from "react-router-dom"
@@ -17,7 +17,7 @@ export const DetailsPages = () => {
     if (blogs) {
       setBlogs(blogs)
     }
-  }, [])
+  }, [id])
 
   return (
     <>
